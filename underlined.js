@@ -3,7 +3,7 @@ module.exports = (input = '', options = {}) => {
       top = false,
       bottom = true, 
       symbol = '-',
-      with_string = false,
+      with_string = true,
    } = options;
 
    let i = 0;

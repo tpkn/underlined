@@ -27,7 +27,7 @@ Underline character
 
 ### options.with_string
 **Type**: _Boolean_   
-**Default**: `false`   
+**Default**: `true`   
 
 Do include input string into result
 
@@ -56,22 +56,22 @@ Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit');
 ```
 
 ```
+Lorem ipsum dolor sit amet, consectetur adipisicing elit
 --------------------------------------------------------
 ```
 
 
 ```javascript
-Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { symbol: '+', with_string: true });
+Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { symbol: '+', with_string: false });
 ```
 
 ```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
 
 
 ```javascript
-Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { with_string: true, top: true });
+Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { top: true });
 ```
 
 ```
