@@ -1,0 +1,15 @@
+{
+   "name": "underlined",
+   "main": "underlined.js",
+   "version": "1.0.1",
+   "author": {
+      "url": "https://github.com/tpkn/"
+   },
+   "repository": "https://github.com/tpkn/underlined",
+   "license": "MIT",
+   "keywords": [
+      "underline",
+      "font",
+      "mono"
+   ]
+}
