@@ -4,6 +4,7 @@ module.exports = (input = '', options = {}) => {
       bottom = true, 
       symbol = '-',
       with_string = true,
+      eol = '\n',
    } = options;
 
    let i = 0;
@@ -16,11 +17,11 @@ module.exports = (input = '', options = {}) => {
 
    if(with_string){
       if(top && bottom){
-         result = result + '\n' + input + '\n' + result;
+         result = result + eol + input + eol + result;
       }else if(top){
-         result += result + '\n' + input;
+         result += result + eol + input;
       }else if(bottom){
-         result = input + '\n' + result;
+         result = input + eol + result;
       }
    }
 

@@ -46,6 +46,12 @@ Draw line at the top
 Draw line at the bottom
 
 
+### options.eol
+**Type**: _String_   
+**Default**: `\n`   
+
+End of line character
+
 
 
 
