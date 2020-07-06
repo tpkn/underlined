@@ -61,14 +61,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit
 ```
 
 
-```javascript
-Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { symbol: '+', with_string: false });
-```
-
-```
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-```
-
 
 ```javascript
 Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { top: true });
@@ -80,5 +72,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit
 --------------------------------------------------------
 ```
 
+
+
+```javascript
+Underlined('Lorem ipsum dolor sit amet, consectetur adipisicing elit', { symbol: '+', with_string: false });
+```
+
+```
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+```
 
 
