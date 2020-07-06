@@ -16,13 +16,7 @@ module.exports = (input = '', options = {}) => {
    }
 
    if(with_string){
-      if(top && bottom){
-         result = result + eol + input + eol + result;
-      }else if(top){
-         result += result + eol + input;
-      }else if(bottom){
-         result = input + eol + result;
-      }
+      result = (top ? result + eol : '') + input + (bottom ? eol + result : '');
    }
 
    return result;
